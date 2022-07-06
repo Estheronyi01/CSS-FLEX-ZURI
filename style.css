@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: 'Big Shoulders Display';
-    font-family: 'Lexend Deca';*/
+    /*font-family: 'Big Shoulders Display' , sans-serif;
+    font-family: 'Lexend Deca' , sans-serif;*/
 }
 body{
     background-color: white;
@@ -67,7 +67,7 @@ main{
     padding: 15px, 40px;
     cursor: pointer;
     font-weight: 400px;
-    font-family: 'Lexend Deca';
+    font-family: 'Lexend Deca' , sans-serif;
     background-color:hsl(0, 0%, 95%)
 }
 .btn1{
@@ -88,7 +88,7 @@ main{
 }
 h3{
     color: hsl(0, 0%, 95%)
-    font-family: 'Lexend Deca';
+    font-family: 'Lexend Deca' , sans-serif;
     font-weight: 400px;
     margin: 20px 0p; 
 }
