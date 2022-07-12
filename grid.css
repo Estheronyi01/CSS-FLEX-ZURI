@@ -58,3 +58,16 @@ main div {
   background-color: rgb(71, 71, 164);
   grid-area: e;
 }
+@media screen (min-width: 900px) {
+  .grid_container {
+    display: grid;
+    grid-template-areas: "a a a b b"
+                            "a a a b b"
+                            "c c d d d"
+                            "c c e e e";
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+ }
+}
