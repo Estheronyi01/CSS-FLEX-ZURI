@@ -1,61 +1,60 @@
 .{
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 body {
-    background-color: rgb(213, 216, 235);
-    justify-content: center;
-    place-items:center ;
-    min-height: 100vh;
+   background-color: rgb(194, 196, 209);
+   justify-content: center;
+   place-items:center ;
+   min-height: 100vh;
 }
 .btn {
-    height: 70px;
-    width: 300px;
-    align-items: center;
-    border-radius: 30px;
-    margin: 60px, 0;
-    outline: none;
-    font-size: 15px;
-    padding: 15px, 40px;
-    cursor: pointer;
-    font-weight: 400px;
-    font-family: 'Lexend Deca';
-    background-color:hsla(123, 44%, 22%, 0.885);
-    background: rgb(54, 195, 7);
+   height: 70px;
+   width: 300px;
+   align-items: center;
+   border-radius: 30px;
+   margin: 60px, 0;
+   outline: none;
+   font-size: 15px;
+   padding: 15px, 40px;
+   cursor: pointer;
+   font-weight: 400px;
+   font-family: 'Lexend Deca';
+   background-color:hsla(123, 44%, 22%, 0.885);
+   background: rgb(54, 195, 7);
 }
 .grid_container {
-   display: grid;
-   grid-template-areas: "a a a b b"
-                           "a a a b b"
-                           "c c d d d"
-                           "c c e e e";
-   gap: 10px;
-   width: 60%;
-   margin: auto;
-   margin-top: 150px;
-   align-items: center;
+  display: grid;
+  grid-template-areas: "a a a b b"
+                          "a a a b b"
+                          "c c d d d"
+                          "c c e e e";
+  gap: 10px;
+  width: 60%;
+  margin: auto;
+  margin-top: 70px;
 }
 main div {
-   padding: 4em;
-   text-align: center;
+  padding: 4em;
+  text-align: center;
 }
 .item1 {
-   background-color: orangered;
-   grid-area: a;
+  background-color: orangered;
+  grid-area: a;
 }
 .item2 {
-   background-color: orange;
-   grid-area: b;
+  background-color: orange;
+  grid-area: b;
 }
 .item3 {
-   background-color: green;
-   grid-area: c;
+  background-color: green;
+  grid-area: c;
 }
 .item4 {
-   background-color: rgb(71, 71, 164);
-   grid-area: d;
+  background-color: rgb(71, 71, 164);
+  grid-area: d;
 }
 .item5 {
-   background-color: rgb(71, 71, 164);
-   grid-area: e;
-}  
+  background-color: rgb(71, 71, 164);
+  grid-area: e;
+}
